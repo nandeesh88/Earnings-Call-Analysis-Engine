@@ -1,10 +1,13 @@
-import { useState } from 'react';
+import { useState, type DragEvent, type ChangeEvent } from 'react';
 
 interface UploadProps {
   onResult: (data: unknown) => void;
   onError: (msg: string) => void;
   onLoading: (loading: boolean) => void;
 }
+
+// Use environment variable for backend URL (no localhost fallback in production)
+const API_BASE = import.meta.env.VITE_API_URL;
 
 export default function Upload({ onResult, onError, onLoading }: UploadProps) {
   const [dragOver, setDragOver] = useState(false);
@@ -14,11 +17,24 @@ export default function Upload({ onResult, onError, onLoading }: UploadProps) {
     setFileName(file.name);
     onLoading(true);
     onError('');
+
+    if (!API_BASE) {
+      onError('VITE_API_URL is not set — configure your frontend environment');
+      onLoading(false);
+      return;
+    }
+
     try {
       const form = new FormData();
       form.append('file', file);
-      const res = await fetch('/analyze', { method: 'POST', body: form });
+
+      const res = await fetch(`${API_BASE}/analyze`, {
+        method: 'POST',
+        body: form,
+      });
+
       const json = await res.json();
+
       if (!res.ok) {
         onError(json.error || 'Analysis failed');
         onResult(null);
@@ -33,12 +49,12 @@ export default function Upload({ onResult, onError, onLoading }: UploadProps) {
     }
   }
 
-  function handleFile(e: React.ChangeEvent<HTMLInputElement>) {
+  function handleFile(e: ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (file) submitFile(file);
   }
 
-  function handleDrop(e: React.DragEvent) {
+  function handleDrop(e: DragEvent<HTMLDivElement>) {
     e.preventDefault();
     setDragOver(false);
     const file = e.dataTransfer.files[0];
@@ -47,7 +63,7 @@ export default function Upload({ onResult, onError, onLoading }: UploadProps) {
 
   return (
     <div
-      onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+      onDragOver={(e: DragEvent<HTMLDivElement>) => { e.preventDefault(); setDragOver(true); }}
       onDragLeave={() => setDragOver(false)}
       onDrop={handleDrop}
       className={`border-2 border-dashed rounded-lg p-8 text-center transition-colors ${
