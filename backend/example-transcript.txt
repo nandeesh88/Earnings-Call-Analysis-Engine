@@ -1,0 +1,62 @@
+ACME Industrial Ltd — Q3 FY2025 Earnings Call Transcript
+Date: January 15, 2025
+Participants: Rajesh Kumar (CEO), Priya Sharma (CFO), Analysts
+
+--- MANAGEMENT COMMENTARY ---
+
+Rajesh Kumar (CEO):
+Good morning, everyone. Thank you for joining the ACME Industrial Q3 FY2025 earnings call. I'm pleased to report that this has been a landmark quarter for us on multiple fronts.
+
+Let me start with the headline numbers. Revenue for Q3 came in at Rs 2,847 crore, a growth of 28% year-on-year. Our EBITDA margins expanded to 18.4%, up from 15.2% in the same quarter last year. This was driven primarily by operating leverage and better product mix.
+
+On the order book front, we now have a consolidated order book of Rs 14,200 crore, providing revenue visibility of approximately 2.8 years. This is the strongest order book position we've ever had. Notably, 62% of this order book comes from government and defense-related contracts, which provides strong execution certainty.
+
+Capacity utilization across our three manufacturing facilities has improved significantly. Our Pune facility is now operating at 87% utilization, up from 72% last year. The Hyderabad facility commissioned in Q1 is already at 54% utilization and ramping up ahead of schedule. We expect it to reach 75% utilization by Q4 FY2025.
+
+On the capex front, we have committed Rs 1,200 crore for FY2025, of which Rs 780 crore has already been deployed. The remaining capex will be directed towards our new Vizag facility, which is expected to be operational by Q2 FY2026.
+
+I want to highlight our defense segment specifically. We received three new contracts from the Ministry of Defence in this quarter, valued at Rs 3,400 crore. These are long-cycle contracts with execution timelines of 3-5 years and carry margins significantly above our corporate average. We believe the defense opportunity for ACME is just beginning.
+
+Priya Sharma (CFO):
+Thank you, Rajesh. Let me provide more color on the financial performance.
+
+Our net profit for the quarter stood at Rs 312 crore, up 42% year-on-year. The improvement came from three drivers: revenue scale, margin expansion, and lower interest costs following our debt reduction program.
+
+On working capital, I want to address this proactively. Our receivable days have increased to 98 days from 82 days in the prior quarter. This is primarily due to two large government contracts where milestone-based payments are in the process of being released. We expect normalization to the 80-85 day range by Q4.
+
+Regarding our balance sheet, net debt stands at Rs 1,450 crore, down from Rs 1,890 crore a year ago. Our net debt-to-EBITDA ratio has improved to 1.2x from 1.8x. We are targeting to bring this below 1.0x by FY2026.
+
+For FY2025 guidance, we are maintaining our revenue growth target of 25-28% and expect EBITDA margins to sustain in the 17.5-18.5% range. Capex guidance remains unchanged at Rs 1,200 crore.
+
+--- Q&A SESSION ---
+
+Analyst (Morgan Stanley):
+Thank you for the detailed presentation. My first question is on the Hyderabad facility ramp-up. You mentioned 54% utilization currently. What gives you confidence in reaching 75% by Q4? And what would be the margin profile at that utilization level?
+
+Rajesh Kumar:
+Good question. The confidence comes from the fact that we already have Rs 4,200 crore of orders specifically allocated to the Hyderabad facility. The ramp-up is not dependent on winning new orders. These are contracted revenues. At 75% utilization, we expect the facility to operate at margins in line with our corporate average or slightly above, given the newer equipment and higher automation levels.
+
+Analyst (Goldman Sachs):
+On the receivables increase, can you provide more specifics? Which contracts are seeing delayed payments, and is there any risk of further elongation?
+
+Priya Sharma:
+The receivable increase is concentrated in two specific contracts with the railways ministry. Both have completed milestone certifications, and we have received partial payments post quarter-end. We don't see structural risk here. The government payment cycle has been well-established and we have strong relationships. I would characterize this as a timing difference rather than a collection concern.
+
+Analyst (CLSA):
+What's your outlook on the competitive landscape? Are you seeing any pricing pressure from Chinese competitors in the industrial segment?
+
+Rajesh Kumar:
+In our core defense and government segments, Chinese competition is not a factor due to obvious policy reasons. In the commercial industrial segment, which is about 35% of our business, we do see some pressure on commodity-grade products. However, our strategy has been to move up the value chain. Our premium and engineered products business, which now represents 48% of commercial revenues, has actually seen pricing power improve. We took a 4-6% price increase in October and have seen no volume impact.
+
+Analyst (JP Morgan):
+Can you talk about your working capital outlook and free cash flow generation expectations?
+
+Priya Sharma:
+We expect operating cash flow of approximately Rs 1,800-2,000 crore for full year FY2025. After the capex spend, free cash flow should be in the range of Rs 600-800 crore. The working capital improvement in Q4 should contribute meaningfully to this. We are quite focused on cash generation and have set an internal target of converting at least 70% of EBITDA to operating cash flow on a full-year basis.
+
+Rajesh Kumar:
+If I may add, our long-term aspiration is to become a Rs 20,000 crore revenue company by FY2028. The building blocks are in place — the order book, the capacity, and the team. We are confident in this target and will continue to invest behind growth while maintaining financial discipline.
+
+Thank you all for your time. We look forward to speaking with you next quarter.
+
+--- END OF TRANSCRIPT ---

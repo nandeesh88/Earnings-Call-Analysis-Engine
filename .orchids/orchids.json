@@ -1,0 +1,10 @@
+{
+  "projectId": "03c23e81-6a7f-44e8-8c82-ece6929a9ee6",
+  "createdAt": 1770811979133,
+  "version": "1.0",
+  "startupCommands": [
+    "cd frontend && bun install && bun run build && cd ../backend && bun install && node server.js"
+  ],
+  "templateId": "any",
+  "detectedFramework": "any"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "earnings-call-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && bun install && bun run build",
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && bun run dev"
+  }
+}
