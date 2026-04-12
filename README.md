@@ -21,6 +21,36 @@ All outputs are validated against a strict JSON schema to prevent hallucination 
 
 ---
 
+## Tech Stack
+
+### Frontend
+
+| Layer | Technology |
+|-------|------------|
+| Framework | React 18 (TypeScript) |
+| Build Tool | Vite |
+| Styling | CSS (index.css) |
+
+### Backend
+
+| Layer | Technology |
+|-------|------------|
+| Runtime | Node.js 18+ / Bun |
+| Server | Express.js |
+| File Parsing | PDF + TXT extraction via `extract.js` |
+| LLM Integration | OpenAI API (`gpt-4o-mini` default) |
+| Validation | Custom JSON schema layer (`schema.js`) |
+
+### Infrastructure
+
+| Layer | Technology |
+|-------|------------|
+| API Proxy | Vite dev proxy → `localhost:3001` |
+| Environment | `.env` via `dotenv` |
+| Package Management | npm or Bun |
+
+---
+
 ## Why This Is Not a Chatbot
 
 | Typical Chatbot | Earnings Call Analysis Engine |
